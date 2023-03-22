@@ -1,0 +1,571 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body .menuprincipal {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 144px;
+    width:100%;
+}
+
+body .menuprincipal .logo {
+    height: 52px;
+    width: 250px;
+}
+
+body .menuprincipal .logo .isotipo {
+    display: none;
+}
+
+body .menuprincipal .logo img {
+    vertical-align: top;
+}
+
+body .menuprincipal .menuitems {
+    align-items: center;
+    display: flex;
+}
+
+body .menuprincipal .items {
+    display: flex;
+}
+
+body .menuprincipal .menuitems > img {
+    display: none;
+}
+
+body .menuprincipal .menuitems .items p {
+    padding: 8px 25px;
+}
+
+body .menuprincipal .menuitems .boton {
+    background: #118596;
+    border: 0;
+    border-radius: 5px;
+    color: #f1f1f1;
+    padding: 16px 32px;
+}
+
+body .Section1 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+body .Section1 .Imagen {
+    height: 100%;
+    width: 100%;
+}
+
+body .Section1 .Imagen img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    vertical-align: top;
+    width: 100%;
+}
+
+body .Section1 .Titulo-boton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 50%;  
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;   
+}
+
+body .Section1 .Titulo-boton h1 {
+    color: #ffb600;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+}
+
+body .Section1 .Titulo-boton .boton-amarillo {
+    background: #ffb600;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 32px;
+
+}
+
+body .Beneficios {
+    display: flex;
+    justify-content: space-between;
+    padding: 144px;
+}
+
+body .Beneficios .beneficios-card {
+    display: flex;
+    flex-wrap: wrap;
+    height: 290px;
+    justify-content: center;
+    width: 450px;
+}
+
+body .Beneficios .beneficios-card span {
+    font-size: 88px;
+}
+
+body .Beneficios .beneficios-card h2 {
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+}
+
+body .Beneficios .beneficios-card P {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+body .masinformacion {
+    padding: 89px 144px;
+    background:#f0efec;
+}
+
+body .masinformacion .contenido {
+    height: 212px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+body .masinformacion .contenido .titulo {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .masinformacion .contenido .titulo > h4 {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+body .masinformacion .contenido .titulo > span {
+    border: 1px solid #118596;
+    width: 15%;
+}
+
+body .masinformacion .contenido > p {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+body .cards {
+    border: 2px ;
+    display: flex;
+    gap: 34px;
+    padding: 50px 100px;
+}
+
+body .cards .card1 {
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
+
+body .cards .card1 .contenido-card {
+    flex: 100%;
+    padding: 55px 34px;
+    text-align: center;
+}
+
+body .cards .card1 .contenido-card .titulo-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+body .cards .card1 .contenido-card .titulo-card > h4 {
+    font-size: 34px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+body .cards .card1 .contenido-card .titulo-card > span {
+    border: 2px solid #118596;
+    width: 42%;
+}
+
+body .cards .card1 .contenido-card > p {
+    font-size: 24px;
+    margin: 24px 0;
+} 
+
+body .cards .card1 .imagen-card {
+    flex: 50%;
+}
+
+body .cards .card1 .imagen-card > img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+body .cards .card1 .contenido-card > button{
+    background: none;
+    border: 2px solid #118596;
+    border-radius: 5px;
+    color: #118596;
+    padding: 16px 32px;
+    justify-content: center;
+    text-align: center;
+}
+
+body .final {
+    padding: 144px 144px;
+    gap: 24px;
+}
+
+body .final .contenido-final {
+    height: 212px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+body .final .contenido-final .titulo-final {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+
+body .final .contenido-final .titulo-final > h4 {
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+}
+
+body .final .contenido-final .titulo-final > span {
+    border: 1px solid #118596;
+    width: 15%;
+}
+
+body .final .contenido-final > p{
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+body .final .contenido-final > button {
+    background: none;
+    border: 2px solid #118596;
+    border-radius: 5px;
+    color: #118596;
+    display: inline-block;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 16px 32px;
+    text-align: center;
+}
+
+body .footer {
+    align-items: center;
+    background:#f0efec;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+
+body .footer .izquierda {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 16px;
+
+}
+
+body .footer .izquierda .terminos-privacidad {
+    display: flex;
+    gap: 24px;
+}
+
+body .footer .izquierda .terminos-privacidad > span {
+    border: 2px solid #118596;
+}
+
+body .footer .derecha {
+    display: flex;
+    gap: 24px;
+}
+
+body .footer .derecha .enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 1366px) {
+    body .menuprincipal {
+        padding: 21px 56px;
+    }
+
+    body .menuprincipal .logo img {
+        vertical-align: top;
+    }   
+    
+    body .Beneficios .beneficios-card {
+        width: 700px;
+        padding: 0 21px;
+    }
+
+    body .masinformacion {
+        padding: 89px 56px;
+    }
+
+    body .cards {
+        flex-wrap: wrap;
+        border: 2px ;
+        gap: 34px;
+        padding: 50px 144px;
+        justify-content: center;
+    }
+
+    body .cards .card1 {
+        background: #f1f1f1;
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+        height: 483px;
+    }
+
+    body .cards .card1 .imagen-card > img {
+        height: 483px;
+        object-fit: cover;
+        width: 450px;
+    }
+
+    body .final {
+        padding: 144px 56px;
+    }
+
+    body .footer {
+        align-items: center;
+        background:#f0efec;
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 150px;
+    }
+}
+
+@media only screen and (max-width: 831px) {
+
+    body {
+        padding: 0;
+    }
+
+    body .menuprincipal {
+        padding: 21px 56px;
+        background: #121212;
+        width: 100%;
+    }
+    body .menuprincipal .menuitems > img {
+        display: unset;
+    }
+    body .menuprincipal .menuitems .items {
+        display: none;
+    }
+    body .menuprincipal .menuitems .boton {
+        display: none;
+    }
+    body .menuprincipal .logo img {
+        vertical-align: top;
+    }
+    
+    body .Section1 {
+        height: 500px;
+    }
+
+    body .Section1 .Titulo-boton {
+        width: 100%;
+    }
+    
+    body .Beneficios {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    body .cards .card1 {
+        background: #f1f1f1;
+        flex-direction: column;
+        width: 718px;
+        height: 724px;
+    }
+
+    body .cards .card1 .imagen-card > img {
+        flex-wrap: wrap;
+        height: 344px;
+        object-fit: cover;
+        width: 718px;
+    }
+
+
+    body .menuprincipal {
+    padding: 21px 56px;
+    }
+
+    body .final {
+        padding: 130px 90px;
+    }
+
+    body .footer {
+        align-items: center;
+        background:#f0efec;
+        display: flex;
+        justify-content: center;
+        padding: 100px 200px;
+        flex-wrap: wrap;
+        gap: 88px;
+    }
+
+    body .footer .derecha {
+        justify-content: center;
+    }
+
+    body .footer .izquierda  {
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    body .menuprincipal {
+        background: #121212;
+    }
+
+    body .menuprincipal .logo .normal{
+        display: none;
+    }
+
+    body .menuprincipal .logo .isotipo {
+        display: unset;
+    }
+
+    body .Section1 .Imagen img {
+        object-fit: cover;
+        width: 360px;
+        height: 500px;
+    }
+    
+    body .Section1 .Titulo-boton h1 {
+        font-size: 32px;
+    }
+
+    body .Section1 .Titulo-boton {
+        width: 360px;   
+        gap: 40px;
+    }
+
+    body .Beneficios .beneficios-card P {
+        font-size: 16px;
+    }
+
+    body .Beneficios {
+        padding: 0 20px;
+        height: 1000px;
+        gap: 66px;
+    }
+
+    body .masinformacion .video {
+        display: none;
+    }
+
+    body .cards {
+        padding: 89px;
+    }
+
+    body .cards .card1 {
+        width: 360px;
+    }
+
+    body .cards .card1 .imagen-card > img {
+        height: 344px;
+        object-fit: cover;
+        width: 360px;
+    }
+
+    body .final {
+        padding: 21px;
+        gap: 32px;
+    }
+
+    body .final .contenido-final .titulo-final > h4 {
+        font-size: 40px;
+    }
+    
+    body .final .contenido-final .titulo-final > span {
+        width: 144px;
+        margin-top: 34px;
+    }
+    
+    body .final .contenido-final > p{
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    body .masinformacion {
+        padding: 56px 24px;
+        width: 360px;
+        height: 575px;
+    }
+
+    
+    body .masinformacion .contenido .titulo > span {
+        width: 144px;
+        height: 0px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        }
+    
+    body .masinformacion .contenido > p {
+        font-size: 16px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    body .final .contenido-final > button {
+        padding: 16px 32px;
+        width: 245px;
+        height: 62px;
+        font-size: 24px;
+    }
+
+    body .footer {
+        padding: 34px 84px;
+        margin-top: 200px;
+        width: 360px;
+        height: 976px;
+    }
+
+    body .footer .derecha {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    body .footer .izquierda {
+        height: 84px;
+        width: 312px;    
+    }
+    
+
+}
